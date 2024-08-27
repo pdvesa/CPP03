@@ -4,6 +4,10 @@ ClapTrap::ClapTrap(std::string name) : _name(name), _hp(10), _energy(10), _damag
     std::cout << "Constructor called once more" << std::endl;
 }
 
+ClapTrap::ClapTrap() : _name("We don't know"), _hp(10), _energy(10), _damage(0) {
+    std::cout << "Constructor called once more" << std::endl;
+}
+
 ClapTrap::~ClapTrap() {
     std::cout << "Destructor called once more" << std::endl;
 }
