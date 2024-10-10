@@ -9,4 +9,3 @@ int main() {
     mrBOT.printElements();
 }
 
-//add forgor constructors

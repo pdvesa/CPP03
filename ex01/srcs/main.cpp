@@ -8,4 +8,3 @@ int main() {
     mrBOT.takeDamage(100);
 }
 
-//add forgor constructors

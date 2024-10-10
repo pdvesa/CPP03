@@ -37,6 +37,6 @@ void ClapTrap::beRepaired(unsigned int amount) {
         return ;
     }
     std::cout << "ClapTrap " << _name << " repairs health for " << amount << " points!" << std::endl;
-    _hp += amount; //do we have max hp ?#%¤#¤?
+    _hp += amount;
     --_energy;
 }
